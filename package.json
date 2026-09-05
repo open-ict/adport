@@ -10,6 +10,7 @@
   },
   "scripts": {
     "build": "turbo run build",
+    "build:cloud": "pnpm --filter @adport/cloud build:standalone",
     "test": "turbo run test",
     "typecheck": "turbo run typecheck",
     "check:public-tree": "node scripts/check-public-tree.mjs",
